@@ -12,6 +12,7 @@ int main() {
     printf("Tanho de um int: %d\n", sizeof(int));
     
     printf("c: (%p)\n", &c);
+    printf("c + 1: (%p)\n", &c + 1);
     printf("i: (%p)\n", &i);
     printf("str: (%p)\n", &str);
     printf("str.x: (%p)\n", &str.x);
